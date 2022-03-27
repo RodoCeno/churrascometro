@@ -1,0 +1,47 @@
+body {
+    background-image: url(./images/vector-churrasco-icones-sem-costura-padrao-ou-plano-de-fundo-400-128380047.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo {
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 1.3rem;
+    width: 450px;
+    background-color: rgba(131, 39, 39, 0.9);
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input {
+    width: 89px;
+    display: inline;
+    padding: 5px;
+}
+
+#calcular {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 450px) {
+    .conteudo {
+        width: 300px;
+        font-size: 1rem;
+    }
+    input {
+        width: 120px;
+        text-align: center;
+    }
+}
